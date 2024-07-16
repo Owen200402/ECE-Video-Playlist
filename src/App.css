@@ -1,3 +1,24 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.zoom-container {
+  transform-origin: top left;
+}
+
+@media (min-width: 3000px) {
+  .zoom-container {
+    zoom: 2;
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .big-wrapper {
   min-height: 100vw;
   min-width: 100vw;
@@ -12,4 +33,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }

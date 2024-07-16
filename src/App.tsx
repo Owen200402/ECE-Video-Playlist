@@ -4,19 +4,19 @@ import Videos from "./components/Videos";
 
 function App() {
   return (
-    <div className="big-wrapper">
+    <div className="big-wrapper zoom-container">
       <Grid container spacing={2}>
-        <Grid item xs={2}>
+        <Grid item xs={3}>
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={6}>
           <div>
-            <Typography variant="h3" margin={2} style={{textAlign: "center"}}>
+            <Typography variant="h3" margin={4} style={{textAlign: "center", fontFamily: "American Typewriter, serif"}}>
               ECE Faculty Playlist
             </Typography>
             <Videos></Videos>
           </div>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={3}>
         </Grid>
       </Grid>
     </div>
