@@ -10,7 +10,7 @@ function App() {
         </Grid>
         <Grid item xs={6}>
           <div>
-            <Typography variant="h3" margin={4} style={{textAlign: "center", fontFamily: "American Typewriter, serif"}}>
+            <Typography variant="h3" margin={4} style={{textAlign: "center", fontFamily: "American Typewriter, serif", color: "#002145"}}>
               ECE Faculty Playlist
             </Typography>
             <Videos></Videos>

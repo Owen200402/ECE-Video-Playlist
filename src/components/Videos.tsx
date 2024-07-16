@@ -16,7 +16,7 @@ const Videos = () => {
               height="100px"
               style={{ margin: "2rem" }}
             />
-            <div className="video-title-align"><Typography variant="h5" style={{textAlign: "center"}}>{video.title}</Typography></div>
+            <div className="video-title-align"><Typography variant="h5" style={{textAlign: "center", color: "#002145"}}>{video.title}</Typography></div>
           </div>
           <Divider></Divider>
         </div>
