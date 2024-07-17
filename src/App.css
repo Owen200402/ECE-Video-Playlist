@@ -29,9 +29,16 @@ body::-webkit-scrollbar {
   justify-content: baseline;
 }
 
+.icon-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .video-title-align {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
+  margin-left: 1rem;
 }

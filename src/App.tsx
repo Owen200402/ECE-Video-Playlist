@@ -4,7 +4,7 @@ import Videos from "./components/Videos";
 
 function App() {
   return (
-    <div className="big-wrapper zoom-container">
+    <div className="big-wrapper">
       <Grid container spacing={2}>
         <Grid item xs={3}></Grid>
         <Grid item xs={6}>

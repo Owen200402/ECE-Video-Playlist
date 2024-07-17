@@ -1,8 +1,18 @@
 import { Divider, Typography } from "@mui/material";
 import { videos } from "../data/videos";
+import { FaPlayCircle } from "react-icons/fa";
+import { IconContext } from "react-icons";
+import { useState } from "react";
+import VideoModal from "./VideoModal";
 
 const Videos = () => {
   const videoList = videos;
+  const [playedVideo, setPlayedVideo] = useState(false);
+  const [url, setUrl] = useState("");
+
+  const closeModal = () => {
+    setPlayedVideo(false);
+  };
 
   return (
     <div>
@@ -13,14 +23,33 @@ const Videos = () => {
               src={video.thumbnail}
               alt={video.title}
               width="150px"
-              height="100px"
+              height="120px"
               style={{ margin: "2rem" }}
             />
-            <div className="video-title-align"><Typography variant="h5" style={{textAlign: "center", color: "#002145"}}>{video.title}</Typography></div>
+            <div className="icon-align">
+              <IconContext.Provider value={{ color: "#0055B7", size: "40px" }}>
+                <FaPlayCircle
+                  style={{ cursor: "pointer", margin: "0.5rem" }}
+                  onClick={() => {
+                    setPlayedVideo(true);
+                    setUrl(video.url);
+                  }}
+                ></FaPlayCircle>
+              </IconContext.Provider>
+            </div>
+            <div className="video-title-align">
+              <Typography
+                variant="h5"
+                style={{ textAlign: "left", color: "#002145" }}
+              >
+                {video.title}
+              </Typography>
+            </div>
           </div>
           <Divider></Divider>
         </div>
       ))}
+      <VideoModal isOpen={playedVideo} onClose={closeModal} url={url}></VideoModal>
     </div>
   );
 };
