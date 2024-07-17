@@ -1,9 +1,7 @@
 // A child component of PhotoList
 
-import { useMediaQuery } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import styled from "styled-components";
-import { useState } from "react";
 import ReactPlayer from "react-player";
 
 const Modal = styled.div`
