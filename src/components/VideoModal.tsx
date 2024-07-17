@@ -46,7 +46,7 @@ const VideoModal = ({ isOpen, onClose, url }: Props) => {
             url={url}
             controls
             width="80vw"
-            height="100%"
+            height="80vh"
           />
           <CloseIcon
             onClick={onClose}

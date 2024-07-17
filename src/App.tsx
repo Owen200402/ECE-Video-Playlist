@@ -4,10 +4,9 @@ import Videos from "./components/Videos";
 
 function App() {
   return (
-    <div className="big-wrapper">
       <Grid container spacing={2}>
-        <Grid item xs={3}></Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={2} lg={2} xl={2}></Grid>
+        <Grid item xs={12} sm={8} lg={8} xl={8}>
           <div>
             <Typography
               variant="h3"
@@ -20,7 +19,7 @@ function App() {
             >
               ECE Faculty Playlist
             </Typography>
-            <Videos></Videos>
+            <Videos />
             <Typography
               variant="body2"
               margin={4}
@@ -35,9 +34,8 @@ function App() {
             </Typography>
           </div>
         </Grid>
-        <Grid item xs={3}></Grid>
+        <Grid item xs={12} sm={2} lg={2} xl={2}></Grid>
       </Grid>
-    </div>
   );
 }
 
