@@ -32,3 +32,13 @@ body::-webkit-scrollbar {
   max-width: 100%;
   margin-left: 1rem;
 }
+
+.zoom-container {
+  transform-origin: top left;
+}
+
+@media (min-width: 3000px) {
+  .zoom-container {
+    zoom: 2;
+  }
+}

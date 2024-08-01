@@ -7,7 +7,7 @@ function App() {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={2} lg={2} xl={2}></Grid>
         <Grid item xs={12} sm={8} lg={8} xl={8}>
-          <div>
+          <div style={{display: "flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
             <Typography
               variant="h3"
               margin={4}
