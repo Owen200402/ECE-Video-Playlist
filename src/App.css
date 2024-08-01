@@ -5,10 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
 .big-wrapper {
   min-height: 100vh;
   min-width: 100vw;

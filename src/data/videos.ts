@@ -14,4 +14,5 @@ export const videos = [
     url: "https://people.ece.ubc.ca/~eng-services/Videos/UBC%20ECE%20-%20Graduate%20Training%20Video.mp4",
     thumbnail: "assets/trainingTA.webp",
   },
+  
 ];
