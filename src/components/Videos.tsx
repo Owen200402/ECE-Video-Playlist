@@ -27,7 +27,7 @@ const Videos = () => {
               style={{ margin: "1rem", objectFit: "cover" }}
             />
             <div className="icon-align">
-              <IconContext.Provider value={{ color: "#0055B7", size: "40px" }}>
+              <IconContext.Provider value={{ color: "#59A6A2", size: "40px" }}>
                 <FaPlayCircle
                   style={{ cursor: "pointer", margin: "0.5rem" }}
                   onClick={() => {
@@ -40,7 +40,7 @@ const Videos = () => {
             <div className="video-title-align">
               <Typography
                 variant="h5"
-                style={{ textAlign: "left", color: "#002145" }}
+                style={{ textAlign: "left", color: "#256069" }}
               >
                 {video.title}
               </Typography>

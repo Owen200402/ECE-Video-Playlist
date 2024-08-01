@@ -21,7 +21,7 @@ function App() {
             style={{
               textAlign: "center",
               fontFamily: "American Typewriter, serif",
-              color: "#002145",
+              color: "#256069",
             }}
           >
             ECE Faculty Playlist
@@ -33,7 +33,7 @@ function App() {
             style={{
               textAlign: "center",
               fontFamily: "cursive",
-              color: "#002145",
+              color: "#256069",
             }}
           >
             &copy; {new Date().getFullYear()} UBC Electrical and Computer
