@@ -35,6 +35,6 @@ body {
 
 @media (min-width: 3000px) {
   .zoom-container {
-    zoom: 1.2;
+    zoom: 1.5;
   }
 }
