@@ -54,7 +54,7 @@ const VideoModal = ({ isOpen, onClose, url }: Props) => {
               position: "absolute",
               right: "50%",
               bottom: 0,
-              margin: "-1rem",
+              margin: "-2rem",
               fontSize: "3rem",
               color: "white",
               cursor: "pointer",
