@@ -45,15 +45,16 @@ const VideoModal = ({ isOpen, onClose, url }: Props) => {
           <ReactPlayer
             url={url}
             controls
-            width="80vw"
-            height="80vh"
+            width="55vw"
+            height="55vh"
           />
           <CloseIcon
             onClick={onClose}
             style={{
               position: "absolute",
-              right: 0,
-              top: 0,
+              right: "50%",
+              bottom: 0,
+              margin: "-1rem",
               fontSize: "3rem",
               color: "white",
               cursor: "pointer",
