@@ -24,7 +24,7 @@ const Videos = () => {
               alt={video.title}
               width="200px"
               height="120px"
-              style={{ margin: "1rem", objectFit: "cover" }}
+              style={{ margin: "2rem", objectFit: "cover" }}
             />
             <div className="icon-align">
               <IconContext.Provider value={{ color: "#59A6A2", size: "40px" }}>

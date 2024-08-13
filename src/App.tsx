@@ -17,7 +17,7 @@ function App() {
         >
           <Typography
             variant="h3"
-            margin={5}
+            marginTop={10}
             style={{
               textAlign: "center",
               fontFamily: "American Typewriter, serif",
