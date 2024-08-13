@@ -45,8 +45,8 @@ const VideoModal = ({ isOpen, onClose, url }: Props) => {
           <ReactPlayer
             url={url}
             controls
-            width="55vw"
-            height="55vh"
+            width="60vw"
+            height="60vh"
           />
           <CloseIcon
             onClick={onClose}
