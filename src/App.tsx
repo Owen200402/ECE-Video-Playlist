@@ -15,21 +15,23 @@ function App() {
             alignItems: "center",
           }}
         >
-          <Typography
-            variant="h3"
-            marginTop={10}
-            style={{
-              textAlign: "center",
-              fontFamily: "American Typewriter, serif",
-              color: "#256070",
-            }}
-          >
-            ECE Faculty Playlist
-          </Typography>
+          <div style={{ backgroundColor: "white", height: "20%", width: "100%", position: "sticky", top: "0"}}>
+            <Typography
+              variant="h3"
+              margin={5}
+              style={{
+                textAlign: "center",
+                fontFamily: "American Typewriter, serif",
+                color: "#256070",
+              }}
+            >
+              ECE Faculty Playlist
+            </Typography>
+          </div>
           <Videos />
           <div
             style={{
-              backgroundColor: "#bae4f5",
+              backgroundColor: "#002145",
               position: "fixed",
               width: "100%",
               height: "50px",
@@ -57,6 +59,7 @@ function App() {
               textAlign: "center",
               fontFamily: "cursive",
               color: "#256070",
+              marginBottom: "10rem",
             }}
           >
             &copy; {new Date().getFullYear()} UBC Electrical and Computer
