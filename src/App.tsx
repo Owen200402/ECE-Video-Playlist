@@ -25,7 +25,7 @@ function App() {
                 color: "#256070",
               }}
             >
-              ECE Faculty Playlist
+              ECE Intro Videos Playlist
             </Typography>
           </div>
           <Videos />
