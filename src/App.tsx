@@ -34,7 +34,7 @@ function App() {
               backgroundColor: "#002145",
               position: "fixed",
               minWidth: "100%",
-              height: "65px",
+              height: "70px",
               bottom: "0",
               display: "flex",
               flexDirection: "column",
