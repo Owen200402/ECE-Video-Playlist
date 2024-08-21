@@ -15,4 +15,5 @@ export const videos = [
     thumbnail: "assets/trainingTA.webp",
   },
   
+  
 ];
