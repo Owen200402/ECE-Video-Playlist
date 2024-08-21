@@ -33,7 +33,7 @@ function App() {
             style={{
               backgroundColor: "#002145",
               position: "fixed",
-              width: "100%",
+              minWidth: "100%",
               height: "50px",
               bottom: "0",
               display: "flex",
