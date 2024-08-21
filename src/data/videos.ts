@@ -28,5 +28,10 @@ export const videos = [
     title: "ECE Graduate Student Safety Orientation",
     url: "https://people.ece.ubc.ca/~eng-services/Videos/Grad%20Safety_v6.mp4",
     thumbnail: "assets/GradSafetyTraining.webp"
+  },
+  {
+    title: "ECE Academic Misconduct",
+    url: "https://people.ece.ubc.ca/~eng-services/Videos/Academic%20Misconduct.mp4",
+    thumbnail: "assets/misconduct.webp"
   }
 ];

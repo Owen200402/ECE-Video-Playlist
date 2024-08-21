@@ -37,7 +37,4 @@ body {
   .zoom-container {
     zoom: 1.5;
   }
-  ::-webkit-scrollbar {
-    width: 40px;
-  }
 }
