@@ -49,6 +49,6 @@ body {
     zoom: 1.5;
   }
   ::-webkit-scrollbar {
-    width: 30px;
+    width: 60px;
   }
 }
