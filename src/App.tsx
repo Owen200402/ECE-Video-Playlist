@@ -27,6 +27,29 @@ function App() {
             ECE Faculty Playlist
           </Typography>
           <Videos />
+          <div
+            style={{
+              backgroundColor: "#bae4f5",
+              position: "fixed",
+              width: "100%",
+              height: "50px",
+              bottom: "0",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+            }}
+          >
+            <Typography
+              variant="h5"
+              style={{
+                textAlign: "center",
+                color: "white",
+                fontFamily: "American Typewriter, serif",
+              }}
+            >
+              Scroll to See More
+            </Typography>
+          </div>
           <Typography
             variant="body2"
             margin={4}
