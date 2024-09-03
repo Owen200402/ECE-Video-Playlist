@@ -6,60 +6,56 @@ function App() {
   return (
     <Grid container spacing={2}>
       <Grid item xs={12} sm={2} lg={2} xl={2}></Grid>
+
       <Grid item xs={12} sm={8} lg={8} xl={8}>
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-            justifyContent: "center",
             alignItems: "center",
+            minHeight: "100vh",
+            position: "relative", // Ensure that the footer is relative to this container
           }}
         >
-          <div style={{ backgroundColor: "white", height: "20%", width: "100%", position: "sticky", top: "0"}}>
+          <div
+            style={{
+              backgroundColor: "white",
+              width: "100%",
+              position: "sticky",
+              top: 0,
+              zIndex: 10,
+              paddingTop: "1rem",
+              paddingBottom: "1rem",
+            }}
+          >
             <Typography
               variant="h3"
-              margin={5}
               style={{
                 textAlign: "center",
                 fontFamily: "American Typewriter, serif",
                 color: "#256070",
+                margin: "0",
               }}
             >
               ECE Intro Videos Playlist
             </Typography>
           </div>
+
           <Videos />
-          <div
-            style={{
-              backgroundColor: "#002145",
-              position: "fixed",
-              minWidth: "100%",
-              height: "70px",
-              bottom: "0",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-            }}
-          >
-            <Typography
-              variant="h5"
-              style={{
-                textAlign: "center",
-                color: "white",
-                fontFamily: "American Typewriter, serif",
-              }}
-            >
-              Scroll to See More
-            </Typography>
-          </div>
+
           <Typography
             variant="body2"
-            margin={4}
             style={{
               textAlign: "center",
               fontFamily: "cursive",
               color: "#256070",
-              marginBottom: "10rem",
+              position: "fixed", // Fix the footer to the bottom of the viewport
+              bottom: 0,
+              left: 0,
+              width: "100%",
+              backgroundColor: "#f9f9f9", // Ensure it matches the page background
+              padding: "1rem 0", // Add padding for better visual spacing
+              zIndex: 10,
             }}
           >
             &copy; {new Date().getFullYear()} UBC Electrical and Computer
@@ -67,6 +63,7 @@ function App() {
           </Typography>
         </div>
       </Grid>
+
       <Grid item xs={12} sm={2} lg={2} xl={2}></Grid>
     </Grid>
   );

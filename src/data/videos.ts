@@ -33,5 +33,5 @@ export const videos = [
     title: "ECE Academic Misconduct",
     url: "https://people.ece.ubc.ca/~eng-services/Videos/Academic%20Misconduct.mp4",
     thumbnail: "assets/misconduct.webp"
-  }
+  },
 ];

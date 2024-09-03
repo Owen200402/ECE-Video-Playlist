@@ -1,0 +1,55 @@
+.video-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0; /* Remove padding to maximize video size */
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8); /* Darken background */
+    cursor: pointer; /* Indicate that background is clickable */
+  }
+  
+  .video-wrapper {
+    width: 100%; /* Let the width be flexible */
+    height: 100vh; /* Use 100% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .video-player {
+    width: 78.5%; /* The video width is now 100% of its container */
+    height: 100%; /* The video height is now 100% of its container */
+    object-fit: cover; /* Cover the container, might crop sides */
+    border-radius: 0; /* Remove border-radius to fully use the space */
+    box-shadow: none; /* Remove shadow to maximize space */
+    cursor: auto; /* Normal cursor on the video itself */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .video-wrapper {
+      height: 100vh; /* Keep full height on smaller screens */
+    }
+  
+    .video-player {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Maintain full coverage */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .video-wrapper {
+      height: 100vh; /* Keep full height on very small screens */
+    }
+  
+    .video-player {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Maintain full coverage */
+    }
+  }
+  
